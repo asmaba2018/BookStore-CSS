@@ -1,0 +1,27 @@
+/* To implement any CSS property use the following syntaxes */
+/* SELECTOR {PROPERTY: VALUE;} */
+/* Where SELECTOR would be an element from your HTML code (class, id, element)*/
+/* Where PROPERTY is any of CSS properties available for the element to change */
+/* Where VALUE is the assigned value to element property */
+/* Where semi-colon used to separate between each declaration */
+
+/* Element name is enough as a SELECTOR for all same elements*/
+
+p {
+    color: red;
+    font-size: 40px;
+}
+
+/* Class require a dot before its name to declare as a SELECTOR for all classes */
+
+.my-p {
+    color: red;
+    font-size: 40px;
+}
+
+/* ID require a hash before its name to declare as a SELECTOR for specific ID only*/
+
+#p1 {
+    color: red;
+    font-size: 40px;
+}
