@@ -1,0 +1,12 @@
+/*
+    Class and ID name shouldn't follow these samples:
+    .123 or #123 don't start with numbers
+    .userTest separate between two words with dash "user-test"
+*/
+.test1 {
+    color: red;
+}
+
+#user-test {
+    color: green;
+}
