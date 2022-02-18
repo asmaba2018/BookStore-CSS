@@ -10,3 +10,74 @@
 #user-test {
     color: green;
 }
+/*
+Good and Bad name convention in class or id name
+*/
+
+/* Good samples */
+.class-name {
+    /* kebab case*/
+}
+.class-name {
+    font-weight: bold;
+}
+.class-name { /* arrange similar properties and keep together */
+    font-family: Tahoma, Arial;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+}
+/* group selectors with the same properties in separate lines */
+.class-one .child span,
+.class-two .child span,
+class-three .child span {
+    font-weight: bold;
+}
+
+/* Bad samples */
+.class_name {
+    /* snake case */
+}
+.ClassName {
+    /* pascal case */
+}
+.className {
+    /* camel case */
+}
+.CLASS_NAME {
+    /* upper case snake case */
+}
+.class-name{/* no space btw class name and openning braces */
+
+}
+.class-name
+{ /* keep openning braces in the same line */
+    /* kebbab case */
+}
+
+.class-name { /* keep the same pattern when spacing btw elements */
+    /* kebbab case */
+}
+.class-name {
+    font-weight:bold; /* should keep a spacing btw property and colon */
+}
+.class-name { /* arrange similar properties and keep together */
+    font-family: Tahoma, Arial;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    background-color: #333;
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+}
+/* shouldn't group selectors with the same properties in one line */
+.class-one .child span, .class-two .child span, class-three .child span {
+    font-weight: bold;
+}
