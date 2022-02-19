@@ -1,0 +1,12 @@
+div {
+    background-color: red; /* color name */
+    background-color: rgba(0, 0, 0, 0.5); /* Red Green Blue color code alpha channel*/
+    background-color: #ff0000; /* hexdecimal color code 0-ff */
+    background-image: url("../images/learn-programming.png");
+    background-repeat: no-repeat; /* default value repeat */
+    /* background-attachment: fixed; */
+    /* background-position: right top; */
+    /* background-position: 200px 10px; */
+    /* background-position: 20% 10%; */
+    background-size: 200px 20%;
+}
