@@ -1,0 +1,26 @@
+div {
+    background-color: #ddd;
+    /* Top Right Bottom Left */
+    /* 50px 50px 50px 50px */
+    /* padding: 50px; */
+
+    /* Top Right Bottom Left */
+    /* 10px 20px 10px 20px */
+    /* Top or Bottom and Right or Left */
+    /* padding: 10px 20px; */
+
+    /* Top Right Bottom Left */
+    /* 10px 20px 15px 20px */
+    /* Top Right or Left and Bottom*/
+    /* padding: 10px 20px 15px; */
+
+    /* Top Right Bottom Left */
+    /* 0px 0px 10px 0px */
+    padding-bottom: 10px;
+}
+h2 {
+    /* background-color: #def; */
+}
+p {
+    /* background-color: #dff; */
+}
