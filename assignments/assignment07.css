@@ -1,0 +1,21 @@
+div {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    /* background-color: blueviolet; */
+    /* background-color: #8a2be2 ; */
+    /* background-color: rgb(138, 43, 226); */
+    background-color: hsl(271.1, 76%, 53%);
+}
+.assign-7-shape-2 {
+    background-color: rgba(138, 43, 226, 50%);
+}
+.assign-7-shape-3 {
+    background-color: rgba(138, 43, 226, 10%);
+}
+#sample01 {
+    background-color: #ddd;
+    padding: 10px;
+    width: 620px;
+    margin: auto;
+}
