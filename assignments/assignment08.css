@@ -15,8 +15,9 @@ div {
     background-repeat: repeat-x;
 }
 #sample02 {
-    background-color: #ddd;
+    background-image: none;
     padding: 10px;
     width: 860px;
+    height: 865px;
     margin: auto;
 }
