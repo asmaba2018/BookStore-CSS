@@ -1,0 +1,26 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/background-01.png");
+    margin: 5px;
+    background-color: #ddd;
+}
+.assign-3-shape-1 {
+    background-repeat: no-repeat;
+}
+.assign-3-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-3-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+#sample03 {
+    background-image: none;
+    background-color: #ddd;
+    padding: 10px;
+    width: 860px;
+    height: 865px;
+    margin: auto;
+}
