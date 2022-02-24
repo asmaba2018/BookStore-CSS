@@ -1,0 +1,12 @@
+div {
+    background-color: #ddd;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    /* border-width: 10px; define border line width for top, right, bottom and left */
+    /* border-color: red; define border line color for top, right, botom and left */
+    /* border-style: solid; define border line type or style */
+    /* border-width: 10px 20px 15px 10px; can define 4 different values */
+    border: 20px solid red; /* a short hand for four similar borders */
+    /* border: 10px 20px solid red; would result an error only one value per group */
+}

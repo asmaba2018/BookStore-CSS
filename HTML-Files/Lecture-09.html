@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Border style</title>
+    <link rel="stylesheet" href="../CSS-Track/09-border.css">
+    <!--
+        border in css language like cell formatting in word or other processing languages
+        border needs three grouped values to be defined (width, color, style)
+        border-width or color or style is a short hand for four properities (Top, Right, Bottom, Left)
+        border surronds element and it's between margin and padding
+        border-width, color and style need 4 values
+        starting from top and clock wise (Top, Right, Bottom, Left)
+        when a single value is present it means equal border in all directions:
+        - 10px (element borders 10 pixels in top, right, bottom, left borders away from element start)
+        when two values it means missing values equal opposite to them
+        - 10px 20px (element borders 10 pixels in top & bottom and 20 pixels in right & left borders away from element start)
+        when three values it means missing values equal opposite to them
+        - 10px 20px 15px (Top 10px, Right 20px, Bottom 15px, left equal to right 20px)
+        we can specify only one border value by choosing it
+        - border-width-bottom: 10px (like border-width: 0 0 10px)
+        and the same for other groups but values differ
+        border-color values would choose from color pallete by name or RGB or HSL or Hexadecimal
+        border-style values could choose from different styles would change border visualization
+        - solid (a solid continous line )
+        - dashed (a dashed line -----)
+        - dotted (a dotted line .....) and etc.
+        border short hand without any grouping would accept 3 values:
+        - border: 10px solid red; (width, style, color):
+        means (border-width: 10px; border-style: solid; border-color: red)
+        and each group accept one value only and it would apply same value for other (top, right, bottom, left)
+        when you need different border values according to your style design dont' use short hand border
+    -->
+</head>
+<body>
+    <div>
+        <h2>Product Title</h2>
+        <p>This Is Paragraph</p>
+    </div>
+</body>
+</html>
