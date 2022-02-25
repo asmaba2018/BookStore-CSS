@@ -1,0 +1,8 @@
+div {
+    background-color: #ddd;
+    /* margin: 30px; */
+    width: 300px; /* determine element width */
+    padding: 10px; /* add padding size to the element and change it */
+    border: 10px solid red; /* add border size to the element and change it */
+    outline: 10px solid blue; /* no effect on element size */
+}
