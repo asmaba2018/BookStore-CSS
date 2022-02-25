@@ -1,0 +1,25 @@
+.division-block {
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+}
+
+.spanner-inline {
+    background-color: #eee;
+    padding: 10px; /* respect only left and right padding even if background color fills it*/
+    margin: 10px; /* respect only left and right margins */
+    width: 300px; /* don't respect width or height */
+}
+
+.spanner-inline-block {
+    background-color: #eee;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+div {
+    background-color: #eee;
+    padding: 10px;
+}
