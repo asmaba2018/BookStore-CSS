@@ -1,0 +1,14 @@
+p {
+    /* this would apply to all paragraph elements in this file */
+    color: blue;
+}
+
+div p {
+    /* select all p using parent div */
+    color: red; /* only the paragraph inside a div would apply this color */
+}
+
+div .special {
+    /* select any element with class special using parent div */
+    color: green;
+}
