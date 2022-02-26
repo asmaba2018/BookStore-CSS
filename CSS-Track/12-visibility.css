@@ -1,0 +1,11 @@
+div {
+    background-color: #eee;
+    margin: 10px;
+    padding: 5px;
+    /* display: none; hide all div elements from the view */
+    /* visibility: visible; */
+}
+
+.first {
+    visibility: hidden;
+}
