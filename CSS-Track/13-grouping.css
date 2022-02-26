@@ -1,0 +1,42 @@
+.one {
+    /* padding: 10px; a common property in all elements */
+    border-bottom: 2px solid red;
+    color: red;
+    /* margin: 10px; a common property in all elements */
+    /* background-color: #eee; a common property in all elements */
+}
+
+.two {
+    /* padding: 10px; a common property in all elements */
+    border-bottom: 2px solid green;
+    color: green;
+    /* margin: 10px; a common property in all elements */
+    /* background-color: #eee; a common property in all elements */
+}
+
+.three {
+    /* padding: 10px; a common property in all elements */
+    border-bottom: 2px solid blue;
+    color: blue;
+    /* margin: 10px; a common property in all elements */
+    /* background-color: #eee; a common property in all elements */
+}
+
+.four {
+    /* padding: 10px; a common property in all elements */
+    border-bottom: 2px solid black;
+    color: black;
+    /* margin: 10px; a common property in all elements */
+    /* background-color: #eee; a common property in all elements */
+}
+
+.one,
+.two,
+.three,
+.four,
+p {
+    /* adding all common properties to a group of diferent elements */
+    padding: 15px; /* easy to change one value and apply to all goruped elements */
+    margin: 12px;
+    background-color: #ededed;
+}
