@@ -1,0 +1,13 @@
+div {
+    background-color: red;
+    padding: 10px;
+    /* display: inline-block; */
+    /* width: 400px; specify element width and cannot exceed it*/
+    /* min-width: 400px; element width start from 400px and if exceeded it'll expands unlimited */
+    max-width: 400px; /* element width stop at 400px and cann't exceed it */
+    /* height: 40px; specify element height and cannot exceed it*/
+    /* min-height: 40px; element height start from 40px and if exceeded it'll expands unlimited */
+    /* max-height: 60px; element height stop at 60px and cann't exceed it */
+    width: fit-content; /* element width would change accordingly with its content to the max-width limit with block display property*/
+    height: fit-content;
+}
