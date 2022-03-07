@@ -1,0 +1,9 @@
+div {
+    background-color: #f9f9f9;
+    letter-spacing: 2px; /* increase letter spacing to be 2 pixels */
+    text-indent: 10px; /* start text after 10 pixels from element padding */
+    /* line-height: 1.6; increase spacing between text lines to 160% normal size */
+    word-spacing: 5px; /* increase spaces between hole words by 5 pixels */
+    white-space: nowrap;
+    word-break: break-all;
+}
