@@ -1,0 +1,17 @@
+div {
+    background-color: #f9f9f9;
+    /* text-decoration: line-through; draw decorating line through text*/
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; will show the following text "Elzero Web School" */
+    /* text-transform: uppercase; will show the following text "ELZERO WEB SCHOOL" */
+    text-transform: lowercase;
+}
+a {
+    /* create a botton from anchor element and change all necessary properities */
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none; /* remove decoration from link text */
+}
