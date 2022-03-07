@@ -1,0 +1,9 @@
+div {
+    background-color: #eee;
+    text-align: center;
+    direction: ltr;
+    font-size: xx-large;
+}
+.arabic {
+    direction: rtl;
+}
