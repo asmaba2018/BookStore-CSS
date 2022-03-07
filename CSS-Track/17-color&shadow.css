@@ -1,0 +1,12 @@
+div {
+    background-color: #f9f9f9;
+    /* color: rebeccapurple; control and change text color as background color */
+    /* text-shadow: 0 0 0 red; create shadow in the same position in horizontal and vertical direction without blur and in red color*/
+    /* text-shadow: 1px 0 0 red; create shadow away 1 pixel from text left in horizontal direction */
+    /* text-shadow: -1px 0 0 red; create shadow away 1 pixel from text left in opposite horizontal direction */
+    /* text-shadow: 0 1px 0 red; create shadow away 1 pixel from text top in vertical direction */
+    /* text-shadow: 0 -1px 0 red; create shadow away 1 pixel from text top in opposite vertical direction */
+    text-shadow: 10px 10px 10px red; /* create shadow away 10 pixel in both directions from top and left with blur 10 pixels */
+    /* text-shadow: 1px 1px 1px rgb(255 2 2 / 27%); color property could use any available representation */
+    font-size: 100px;
+}
