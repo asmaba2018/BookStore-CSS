@@ -1,0 +1,13 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 6px;
+    /* overflow: visible; default value for overflow property*/
+    /* overflow: hidden; opposite value of visible*/
+    /* overflow: scroll; always show scrolls even without overflow*/
+    /* overflow: auto; show scroll only when content overflows */
+    /* overflow-x: hidden; hide content in x-direction and auto in y-direction */
+    overflow-y: hidden; /* hide content in y-direction and auto in x-direction */
+}
