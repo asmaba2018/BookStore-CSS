@@ -3,6 +3,11 @@ div {
     text-align: center;
     direction: ltr;
     font-size: xx-large;
+    margin: 10px;
+}
+
+img {
+    vertical-align: middle; /* it controls text align with the image in the same element */
 }
 .arabic {
     direction: rtl;
