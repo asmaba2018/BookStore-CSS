@@ -5,5 +5,5 @@ div {
   text-align: center;
   font-size: 50px;
   font-family: sans-serif;
-  text-shadow: 1px 1px 0 red, 2px 2px 0 blueviolet, 4px 4px 0 purple;
+  text-shadow: 1px 1px 0 red, 2px 2px 0 purple, 4px 4px 0 purple;
 }
