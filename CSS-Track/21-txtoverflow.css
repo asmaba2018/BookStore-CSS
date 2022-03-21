@@ -1,0 +1,12 @@
+/*
+  Text over flow
+*/
+
+div {
+  background-color: #ddd;
+  padding: 10px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* add dots to end of text to inform there's more text but hidden */
+}
