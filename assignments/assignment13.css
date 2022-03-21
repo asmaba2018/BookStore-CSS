@@ -1,13 +1,13 @@
 div {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 div div .title {
-    color: red;
+  color: red;
 }
 
 div .title {
-    color: blue;
+  color: blue;
 }
 
 /* p {
@@ -19,5 +19,5 @@ div .title {
 
 p,
 .title {
-    color: green;
+  color: green;
 }

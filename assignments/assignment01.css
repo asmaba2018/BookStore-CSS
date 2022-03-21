@@ -1,19 +1,19 @@
 /* Any Element With Class Tiltle */
 .title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* an element with id nav */
 #nav {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* All div elements */
 div {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* All Header elements in grade 2 */
 h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
