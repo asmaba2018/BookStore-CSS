@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 20px;
+  border: 2px solid red;
+}
+
+/* div childs' would inherit its text-align and font-size property values */
+/* div childs' wouldn't inherit its padding or background-color or border property values */
+/* body child and its childs would inherit its font-family property value */
+
+div p {
+  border: 2px solid;
+  border-color: inherit;
+}
+
+/* paragraph border-color property could inherit its value from parent div by passing inherit to its value */

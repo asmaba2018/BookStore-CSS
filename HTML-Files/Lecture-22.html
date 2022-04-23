@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Element Inheritance</title>
+    <link rel="stylesheet" href="../CSS-Track/22-inheritance.css" />
+    <!--
+      Element inheritance 
+      Child elements should inherite from its parent most properities
+      but not all like:
+      div => h3:
+        h3 inherits text-alignment and text-size
+        and doesn't padding, background-color, or border
+        although text-size wouldn't apply to h3 (it has different text-size)
+      any child could change inherited properties by specifying it a new value
+      inherited properities inherited to childrens of childs also and so on
+      we can assign inherit value to any property to make it inherit its value from parent to the top parent
+    -->
+  </head>
+  <body>
+    <div>
+      <h3>Elzero Web School</h3>
+      <p>Welcome To The Website</p>
+    </div>
+  </body>
+</html>
