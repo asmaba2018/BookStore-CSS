@@ -1,0 +1,17 @@
+/*
+CSS units 
+  - px default value 16px
+  - em element multiply inherited font size
+  - rem root element multiply inherited font size
+  - vw percent of view port width
+  - percentage percent of inherited font size
+Read
+  - vmin
+  - vh
+*/
+div {
+  font-size: 20px; /* assign element font-size to 20 pixels */
+}
+
+
+div 
